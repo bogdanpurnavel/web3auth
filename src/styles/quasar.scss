@@ -1,0 +1,41 @@
+@import "./quasar.variables.scss";
+@import "~quasar-styl";
+@import "~quasar-addon-styl";
+
+/* Import fonts */
+
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat Regular";
+  src: local("Montserrat"),
+  url(../assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: local("Montserrat"),
+  url(../assets/fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+/* I'm Batman */
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../assets/fonts/GothamPro/GothamPro-Bold.ttf) format("truetype");
+  src: url(../assets/fonts/GothamPro/GothamPro-Bold.woff) format("woff");
+  src: url(../assets/fonts/GothamPro/GothamPro-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  src: url(../assets/fonts/GothamPro/GothamPro-Medium.ttf) format("truetype");
+  src: url(../assets/fonts/GothamPro/GothamPro-Medium.woff) format("woff");
+  src: url(../assets/fonts/GothamPro/GothamPro-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url(../assets/fonts/GothamPro/GothamPro.ttf) format("truetype");
+  src: url(../assets/fonts/GothamPro/GothamPro.woff) format("woff");
+  src: url(../assets/fonts/GothamPro/GothamPro.woff2) format("woff2");
+}
